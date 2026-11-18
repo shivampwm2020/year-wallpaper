@@ -1,0 +1,14 @@
+# Compiled binary
+bin/
+
+# Xcode / Swift build products
+*.o
+*.dSYM/
+.swiftpm/
+build/
+
+# macOS noise
+.DS_Store
+
+# Generated previews
+*.png
