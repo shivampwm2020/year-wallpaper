@@ -4,6 +4,8 @@ A macOS wallpaper that shows your year as a grid of pixels — one cell per day,
 
 There's a small label in the top margin with the year on the left and the days remaining on the right.
 
+![YearWallpaper — the 2026 grid, filled through November](docs/preview.png)
+
 ```
 2026                                                    54 days left
 
@@ -96,9 +98,10 @@ The label font size is derived from the cell size (`cell * 0.62`), so the text s
 
 ```
 Sources/YearWallpaper.swift            the whole program
+docs/preview.png                       screenshot used above
 scripts/build.sh                       compile to bin/
 scripts/install-launchagent.sh         daily schedule, install or uninstall
-PUBLISH.sh                             create the private GitHub repo and push
+PUBLISH.sh                             create the GitHub repo and push
 ```
 
 Generated files — `bin/`, and the PNGs in `~/Library/Application Support/YearWallpaper/` — are not tracked by git.

@@ -12,3 +12,4 @@ build/
 
 # Generated previews
 *.png
+!docs/*.png
